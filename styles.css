@@ -1,0 +1,60 @@
+body {
+  background-color: aquamarine;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.topHeader {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  align-items: center;
+}
+.logo {
+  width: 20%;
+}
+
+h2 {
+  font-family: "Indie Flower", cursive;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.main {
+  margin: 10px;
+}
+
+.footer p {
+  margin: 10px;
+}
+.lots {
+  /* width: 90%; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-rows: auto;
+  column-gap: 40px;
+  row-gap: 40px;
+  box-sizing: border-box;
+}
+.singleItem {
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid black;
+  background-color: beige;
+  padding: 10px;
+}
+.singleItem p {
+  margin: 0 0 10px 0;
+}
+.singleImage {
+  width: 150px;
+  background-color: beige;
+}
