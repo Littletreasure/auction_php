@@ -14,8 +14,8 @@ include("data/data.php");
 </head>
 <body>
 <div class="header">
-  <div class="topHeader">
+  
 <img src="/images/southportsa2.jpg" class="logo">
-</div>
+
 <h2>Silent Auction</h2>
 </div>

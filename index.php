@@ -10,6 +10,7 @@ include("header.php");
       foreach ($auctionItems as $lot => $item) {
         ?>
         <div class="singleItem">
+          <p>Lot number: <?php echo $item[lotNo]; ?></p>
           <p><?php echo $item[name]; ?></p>
         <a href="item.php?item=<?php echo $lot; ?>"><img class="singleImage" src="/images/<?php echo $item[image]; ?>.png"></a>
       </div>
