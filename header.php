@@ -17,5 +17,5 @@ include("data/data.php");
   
 <img src="/images/southportsa2.jpg" class="logo">
 
-<h2>Silent Auction</h2>
+<h1>Silent Auction</h1>
 </div>
