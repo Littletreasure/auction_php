@@ -11,6 +11,7 @@ if (isset($_GET['item'])) {
   <img class="mainImage" src="/images/<?php echo $item[image]; ?>.jpg">
   <p>Lot No: <?php echo $item[lotNo]; ?></p>
   <p><?php echo $item[description]; ?></p>
+  <p>Current bid: <?php echo $item[bid]; ?></p>
   <a class="back" href="index.php">Back</a>
 </div>
 <?php
